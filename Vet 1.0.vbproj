@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC90FFF6-6D24-4475-A332-9C887423D3E8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Vet_1._0.My.MyApplication</StartupObject>
+    <RootNamespace>Vet_1._0</RootNamespace>
+    <AssemblyName>Vet Register %28Betta%29</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Vet Register %28Betta%29.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Vet Register %28Betta%29.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>vet.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=5.0.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\MySQL\MySQL Connector Net 5.0.9\Binaries\.NET 2.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="acerca.Designer.vb">
+      <DependentUpon>acerca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="acerca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregaMascota.Designer.vb">
+      <DependentUpon>AgregaMascota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AgregaMascota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agregar.Designer.vb">
+      <DependentUpon>agregar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="agregar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agrega_calle.Designer.vb">
+      <DependentUpon>agrega_calle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="agrega_calle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agrega_colonia.Designer.vb">
+      <DependentUpon>agrega_colonia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="agrega_colonia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscar.Designer.vb">
+      <DependentUpon>buscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="buscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busca_personas.Designer.vb">
+      <DependentUpon>Busca_personas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Busca_personas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class_Pesona.vb" />
+    <Compile Include="consulUsuario.Designer.vb">
+      <DependentUpon>consulUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consulUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crea_usuario.Designer.vb">
+      <DependentUpon>crea_usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="crea_usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editar usuario.Designer.vb">
+      <DependentUpon>Editar usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editar usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminacolo.Designer.vb">
+      <DependentUpon>Eliminacolo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminacolo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eliminar.Designer.vb">
+      <DependentUpon>eliminar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="eliminar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eliminar_calle.Designer.vb">
+      <DependentUpon>eliminar_calle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="eliminar_calle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar_raza.Designer.vb">
+      <DependentUpon>Eliminar_raza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar_raza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eliminar_usuario.Designer.vb">
+      <DependentUpon>eliminar_usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="eliminar_usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agrega_Raza.Designer.vb">
+      <DependentUpon>Agrega_Raza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Agrega_Raza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eliminausu.Designer.vb">
+      <DependentUpon>eliminausu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="eliminausu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.Designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.vb">
+      <DependentUpon>main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conexion.vb" />
+    <Compile Include="MenuMascota.Designer.vb">
+      <DependentUpon>MenuMascota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuMascota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menupersona.Designer.vb">
+      <DependentUpon>menupersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menupersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="VerMedicos.Designer.vb">
+      <DependentUpon>VerMedicos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VerMedicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="acerca.resx">
+      <DependentUpon>acerca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregaMascota.resx">
+      <DependentUpon>AgregaMascota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agregar.resx">
+      <DependentUpon>agregar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agrega_calle.resx">
+      <DependentUpon>agrega_calle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agrega_colonia.resx">
+      <DependentUpon>agrega_colonia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscar.resx">
+      <DependentUpon>buscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Busca_personas.resx">
+      <DependentUpon>Busca_personas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consulUsuario.resx">
+      <DependentUpon>consulUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crea_usuario.resx">
+      <DependentUpon>crea_usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editar usuario.resx">
+      <DependentUpon>Editar usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminacolo.resx">
+      <DependentUpon>Eliminacolo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminar.resx">
+      <DependentUpon>eliminar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminar_calle.resx">
+      <DependentUpon>eliminar_calle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar_raza.resx">
+      <DependentUpon>Eliminar_raza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminar_usuario.resx">
+      <DependentUpon>eliminar_usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agrega_Raza.resx">
+      <DependentUpon>Agrega_Raza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminausu.resx">
+      <DependentUpon>eliminausu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuMascota.resx">
+      <DependentUpon>MenuMascota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menupersona.resx">
+      <DependentUpon>menupersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerMedicos.resx">
+      <DependentUpon>VerMedicos.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turquoise-cute-pug-dog-face-bone-paw-print-oxford-fabric-Cosmo-Japan-211781-1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_123705.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kaia letra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kaia-letra2-ConvertImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ICON.ico" />
+    <None Include="Resources\Capturarh.PNG" />
+    <None Include="Resources\ecil.PNG" />
+    <None Include="Resources\ecil1.PNG" />
+    <Content Include="vet.ico" />
+    <None Include="Resources\ICON.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

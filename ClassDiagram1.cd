@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Vet_1._0.acerca" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAASAAAAAEAACEAABCgAAAAAIAAEAACAAQAAA=</HashCode>
+      <FileName>acerca.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.agrega_calle" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAACAAAgCAAAQRAAABAAAAAAAAAA=</HashCode>
+      <FileName>agrega_calle.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.agrega_colonia" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAACAAAgCQAAQQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>agrega_colonia.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.Form1Agrega_Raza" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAACAAAgCAAAQQAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Agrega_Raza.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.AgregaMascota" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACUCAAAAAAAADAEBgCAAkQYAQAAAhQAAAAAAQ=</HashCode>
+      <FileName>AgregaMascota.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.agregar" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAAECAAAAAEAgCA0DgCAAAAcAwAAECBAAAAAAA=</HashCode>
+      <FileName>agregar.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.Busca_personas" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAgAAAAAACAGAgCAAgAQAAIAIAAAAAAAAA=</HashCode>
+      <FileName>Busca_personas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.buscar" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAUCAAAAAAAACAGAgCAAgAYAAAAAIAAAAAAAA=</HashCode>
+      <FileName>buscar.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.Class_Pesona" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAAAABIACAAAAAAAAAAAAAAAAAAAAAEAAAAAo=</HashCode>
+      <FileName>Class_Pesona.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.consulUsuario" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAACAAAICAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>consulUsuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.crea_usuario" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgECAAAAAAAECAABgCAAAQQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>crea_usuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.Editar_usuario" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgECAAAAAAAECAEAgCAAAQQAAABAAAAAAAAAA=</HashCode>
+      <FileName>Editar usuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.Eliminacolo" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAECAAAAAAAACAEAgCAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Eliminacolo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.eliminar" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eliminar.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.eliminar_calle" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAAGAEAgCAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eliminar_calle.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.Eliminar_raza" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAgAAAAACAEAgCAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Eliminar_raza.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.eliminar_usuario" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>eliminar_usuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.eliminausu" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgECAAAAAAAACAEAgCAAAQQAAAACAAAAAAAAA=</HashCode>
+      <FileName>eliminausu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.LoginForm1" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQAQCAAAAAAAAKAAgACgCCQQgAAiEABQAAAABA=</HashCode>
+      <FileName>LoginForm1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.main" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gUEAlJICASCIAAAEAADAAQICAAAQQAACAAABAbFAEGA=</HashCode>
+      <FileName>main.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.MenuMascota" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAACAAAhCAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>MenuMascota.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.menupersona" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAACAABgGAADwYAQAAAAAAAAAAAA=</HashCode>
+      <FileName>menupersona.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.VerMedicos" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAAAAACACAACAAAIAAAIAAAAAAAACAA=</HashCode>
+      <FileName>VerMedicos.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.My.MyApplication" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vet_1._0.My.MySettings" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABAAIAAABAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="Vet_1._0.conexion" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAACAAAACEAAAEIgAAAQhBIAAgQgAAAEAAAE=</HashCode>
+      <FileName>conexion.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Vet_1._0.My.MySettingsProperty" Collapsed="true">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Vet_1._0.My.Resources.Resources" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAEAQAAAAAAAAAABEAAEEQAAAABAACAAiAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
